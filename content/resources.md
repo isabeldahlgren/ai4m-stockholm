@@ -8,7 +8,7 @@
 
 # Resources
 
-A short, deliberately selective list for mathematicians who want to find their way into the subject. It is a starting point rather than a survey, and we add to it as the seminar goes along.
+A short, deliberately selective list for mathematicians who want to find their way into the subject. It is a starting point rather than a survey.
 
 > Suggestions are very welcome — send anything you think belongs here to {email}.
 
@@ -34,10 +34,10 @@ A short, deliberately selective list for mathematicians who want to find their w
 
 ### Going further
 
-- [Learning Lean: tools and resources](https://lean-lang.org/learn/#resources)
-  The official index of editors, documentation, search tools and community forums. Start here when you need something the textbooks do not cover.
+- [Learning Lean: tools and resources](https://lean-lang.org/learn/)
+  The official index of editors, documentation, search tools and community forums.
 - [LeanEval](https://lean-lang.org/eval/)
-  A public leaderboard for AI formalisation and proof: standings, problem histories and the solutions themselves, which are often more informative than the scores.
+  A public leaderboard for AI formalisation tools.
 - [Tau Ceti](https://github.com/TauCetiProject/TauCeti)
   A Lean library downstream of Mathlib in which AI writes the formalisations and humans write the roadmaps and the review rubrics. An experiment in building trust in machine-written mathematics.
 - [Palomar](https://palomar-registry.org/)
@@ -55,7 +55,7 @@ A short, deliberately selective list for mathematicians who want to find their w
 ## A blogroll
 
 - [Terence Tao, *What's new*](https://terrytao.wordpress.com)
-  The most useful running commentary available from a working mathematician, including his own experiments with proof assistants and language models.
+  A useful running commentary available from a working mathematician, including his own experiments with proof assistants and language models.
 - [Timothy Gowers, *Gowers's Weblog*](https://gowers.wordpress.com)
   Long-running writing on how mathematics is actually done, and on what it would take for a machine to do it.
 - [Daniel Litt](https://www.daniellitt.com/blog/)
@@ -67,10 +67,8 @@ A short, deliberately selective list for mathematicians who want to find their w
 
 - [AI for Math Fund](https://www.renaissancephilanthropy.org/ai-for-math-fund/)
   Grants from Renaissance Philanthropy for work on formalisation, datasets, tools and open problems.
-- [AI for Math Workshop](https://ai4math2026.github.io)
-  The workshop series held at ICML; the 2026 edition, in Seoul, ran paper and challenge tracks whose calls are a good guide to what the field is currently asking.
 - [Caltech Mathathon](https://mathathonchallenge.com)
-  Forty hours in which invited teams are given frontier models and compute and set loose on open conjectures. Applications are made through the site.
+  Forty hours in which invited teams are given frontier models and compute and set loose on open conjectures. Applications are made through the site; deadline on September 12.
 
 ## Beyond this list
 

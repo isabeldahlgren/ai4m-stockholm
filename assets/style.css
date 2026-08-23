@@ -1,0 +1,210 @@
+/* ---------------------------------------------------------------
+   AI4Math Stockholm — stylesheet
+   Neutral, print-inspired academic layout. Edit the tokens below
+   to adjust palette, measure, and rhythm site-wide.
+   --------------------------------------------------------------- */
+
+:root {
+  --paper:      #fdfcfa;
+  --ink:        #16181d;
+  --ink-soft:   #40454e;
+  --muted:      #6b7079;
+  --rule:       #e2e0d9;
+  --rule-soft:  #eeece6;
+  --accent:     #17395f;
+  --accent-lit: #2c5f96;
+
+  --serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --measure: 42rem;
+  --wide: 54rem;
+  --gutter: 1.75rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.62;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* --- typography ------------------------------------------------ */
+
+h1, h2, h3 { font-weight: 600; line-height: 1.22; letter-spacing: -0.008em; margin: 0; }
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.0625rem; }
+
+p { margin: 0 0 1.1em; }
+p:last-child { margin-bottom: 0; }
+
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(23, 57, 95, 0.28); transition: border-color 120ms ease, color 120ms ease; }
+a:hover { color: var(--accent-lit); border-bottom-color: currentColor; }
+
+strong { font-weight: 600; }
+
+.lede { font-size: 1.1875rem; line-height: 1.55; color: var(--ink-soft); }
+
+.label {
+  font-family: var(--sans);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.muted { color: var(--muted); }
+
+/* --- shell ------------------------------------------------------ */
+
+.wrap { width: 100%; max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
+.prose { max-width: var(--measure); }
+
+.skip {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--ink); color: var(--paper);
+  padding: 0.6rem 1rem; font-family: var(--sans); font-size: 0.875rem;
+}
+.skip:focus { left: 0; z-index: 10; }
+
+/* --- masthead --------------------------------------------------- */
+
+.masthead { border-bottom: 1px solid var(--rule); padding: 2.25rem 0 1.5rem; }
+.masthead__inner {
+  display: flex; flex-wrap: wrap; align-items: baseline;
+  justify-content: space-between; gap: 1rem 2rem;
+}
+
+.wordmark { display: inline-block; border: 0; color: var(--ink); }
+.wordmark:hover { color: var(--ink); }
+.wordmark__name { font-size: 1.4rem; font-weight: 600; letter-spacing: -0.015em; display: block; }
+.wordmark__hosts {
+  display: block; margin-top: 0.3rem;
+  font-family: var(--sans); font-size: 0.75rem; letter-spacing: 0.03em; color: var(--muted);
+}
+
+.nav { display: flex; gap: 1.5rem; font-family: var(--sans); font-size: 0.875rem; }
+.nav a { color: var(--ink-soft); border-bottom: 1px solid transparent; padding-bottom: 2px; }
+.nav a:hover { color: var(--ink); border-bottom-color: var(--rule); }
+.nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--ink); }
+
+/* --- page sections ---------------------------------------------- */
+
+main { padding: 3.5rem 0 4.5rem; }
+
+.hero { margin-bottom: 3.5rem; }
+.hero h1 { font-size: 2.3rem; margin-bottom: 1.1rem; }
+
+.section { padding-top: 2.75rem; margin-top: 2.75rem; border-top: 1px solid var(--rule-soft); }
+.section:first-of-type { padding-top: 0; margin-top: 0; border-top: 0; }
+.section__head { margin-bottom: 1.6rem; }
+.section__head h2 { margin-top: 0.45rem; }
+
+/* --- events ------------------------------------------------------ */
+
+.events { list-style: none; margin: 0; padding: 0; }
+
+.event {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--rule-soft);
+}
+.event:first-child { border-top: 0; padding-top: 0; }
+
+.event__when { font-family: var(--sans); font-size: 0.8125rem; line-height: 1.5; color: var(--muted); padding-top: 0.28rem; }
+.event__date { display: block; color: var(--ink); font-weight: 500; }
+.event__time { display: block; }
+.event__title { font-size: 1.1875rem; font-weight: 600; margin: 0 0 0.35rem; }
+.event__speaker { display: block; margin-bottom: 0.5rem; color: var(--ink-soft); }
+.event__meta { font-family: var(--sans); font-size: 0.8125rem; color: var(--muted); margin-bottom: 0.6rem; }
+.event__abstract { font-size: 1rem; color: var(--ink-soft); margin-bottom: 0.5rem; }
+.event__links { font-family: var(--sans); font-size: 0.8125rem; }
+.event__links a + a { margin-left: 1rem; }
+
+.tag {
+  display: inline-block; font-family: var(--sans); font-size: 0.6875rem;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+  border: 1px solid var(--rule); border-radius: 2px; padding: 0.15rem 0.45rem;
+  vertical-align: 0.14em; margin-left: 0.5rem; white-space: nowrap;
+}
+
+.event--past .event__title { font-weight: 500; }
+.event--past { color: var(--ink-soft); }
+
+.empty { color: var(--muted); font-style: italic; }
+
+/* --- resource lists ---------------------------------------------- */
+
+.res { list-style: none; margin: 0; padding: 0; }
+.res li { padding: 0.7rem 0; border-top: 1px solid var(--rule-soft); }
+.res li:first-child { border-top: 0; }
+.res__title { font-weight: 600; }
+.res__note { display: block; font-size: 0.9375rem; color: var(--muted); margin-top: 0.1rem; }
+
+.subhead { margin: 2rem 0 0.9rem; font-size: 1rem; font-weight: 600; }
+.subhead:first-child { margin-top: 0; }
+
+/* --- callout ------------------------------------------------------ */
+
+.callout {
+  border-left: 2px solid var(--rule);
+  padding: 0.15rem 0 0.15rem 1.25rem;
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+
+/* --- footer -------------------------------------------------------- */
+
+.footer { border-top: 1px solid var(--rule); padding: 2.25rem 0 3rem; font-family: var(--sans); font-size: 0.8125rem; color: var(--muted); }
+.footer__inner { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; justify-content: space-between; }
+.footer a { color: var(--ink-soft); border-bottom-color: var(--rule); }
+.footer a:hover { color: var(--ink); }
+.footer__links { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+
+/* --- notes and messages ------------------------------------------- */
+
+.section__note { max-width: var(--measure); margin-top: 1.75rem; }
+
+.notice {
+  max-width: var(--measure);
+  border-left: 2px solid var(--accent);
+  background: #f6f4ef;
+  padding: 0.9rem 1.1rem;
+  margin: 0 0 2rem;
+  font-size: 0.9375rem;
+  color: var(--ink-soft);
+}
+.notice__title { font-weight: 600; color: var(--ink); margin-bottom: 0.4rem; }
+.notice ul { margin: 0; padding-left: 1.1rem; }
+.notice li + li { margin-top: 0.35rem; }
+
+/* --- responsive ------------------------------------------------------ */
+
+@media (max-width: 46rem) {
+  :root { --gutter: 1.25rem; }
+  .masthead { padding-top: 1.75rem; }
+  .hero h1 { font-size: 1.85rem; }
+  .event { grid-template-columns: 1fr; gap: 0.5rem; }
+  .event__when { padding-top: 0; }
+  .event__date, .event__time { display: inline; }
+  .event__time::before { content: " \00b7 "; }
+}
+
+@media print {
+  body { background: #fff; }
+  .nav, .footer__links { display: none; }
+  a { color: #000; border: 0; }
+}

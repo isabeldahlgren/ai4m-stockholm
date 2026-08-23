@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------
+#  SITE SETTINGS
+#
+#  Everything here appears on every page: the name at the top, the
+#  menu, the contact address, the footer. Change a value, save the
+#  file, and it changes across the whole site.
+#
+#  Lines starting with # are notes to yourself. They are ignored.
+# ---------------------------------------------------------------
+
+site name: AI4Math Stockholm
+
+# The small grey line under the name.
+hosts: KTH Royal Institute of Technology · Stockholm University
+
+# The contact address. Write {email} anywhere in a content file and
+# it becomes a working link to whatever is set here.
+email: ai4math@example.se
+
+# The menu at the top right. One line per item: Name = file.
+menu:
+  About = index.html
+  Events = events.html
+  Resources = resources.html
+
+# The text at the bottom left. Indent the lines; each starts a new line.
+footer:
+  A joint initiative of the Department of Mathematics at KTH
+  and the Department of Mathematics at Stockholm University.
+
+# The links at the bottom right. One line per item: Name = address.
+footer links:
+  Contact = mailto:{email}
+  Events = events.html
+  Resources = resources.html

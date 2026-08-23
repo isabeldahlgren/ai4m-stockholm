@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------
+#  EVENTS
+#
+#  One event per block, separated by a line of three dashes: ---
+#  Order does not matter. The site sorts by date, moves an event to
+#  "Past events" by itself once it is over, and puts the next three
+#  on the front page.
+#
+#  Only "title" and "date" are needed. Leave out any line you do not
+#  want, or delete its text — an empty line is ignored.
+#
+#      title:     Talk title
+#      speaker:   Name, Affiliation
+#      series:    AI4Math Seminar          (small tag next to the title)
+#      date:      2026-09-24               (year-month-day)
+#      time:      15:15-16:15              (or just 15:15, or leave out)
+#      location:  KTH, Lindstedtsvägen 25, room 3721
+#      abstract:  One or two sentences. May run over several lines.
+#      link:      Register https://...     (repeat for more links)
+#
+#  A two-day event:   date: 2026-11-19 to 2026-11-20
+#  Times are Stockholm time. The clock change is handled for you.
+#
+#  Never delete an old event — it moves to "Past events" on its own.
+# ---------------------------------------------------------------
+
+title: Organisational meeting and introductions
+speaker: All welcome
+series: AI4Math Stockholm
+date: 2026-09-10
+time: 15:15-17:00
+location: Stockholm University, Kräftriket, house 6, room 306
+abstract: An informal first meeting to introduce the group, agree on the format of the seminar series, and collect topics that participants would like to see covered during the autumn.
+
+---
+
+title: Formalisation with Lean: a working introduction
+speaker: Speaker to be announced
+series: AI4Math Seminar
+date: 2026-09-24
+time: 15:15-16:15
+location: KTH, Lindstedtsvägen 25, room 3721
+abstract: A hands-on introduction to interactive theorem proving in Lean 4 and the Mathlib library, aimed at mathematicians with no prior experience of proof assistants.
+
+---
+
+title: Autumn workshop: machine-assisted mathematics
+series: Workshop
+date: 2026-11-19 to 2026-11-20
+time: 09:00-17:00
+location: Stockholm — venue to be confirmed
+abstract: A two-day workshop bringing together mathematicians and machine learning researchers from KTH and Stockholm University. Programme and registration details will be posted here in October.

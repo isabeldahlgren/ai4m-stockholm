@@ -8,14 +8,14 @@
 #  Lines starting with # are notes to yourself. They are ignored.
 # ---------------------------------------------------------------
 
-site name: AI4Math Stockholm
+site name: AI4M Stockholm
 
 # The small grey line under the name.
 hosts: KTH Royal Institute of Technology · Stockholm University
 
 # The contact address. Write {email} anywhere in a content file and
 # it becomes a working link to whatever is set here.
-email: ai4math@example.se
+email: ai4m@example.se
 
 # The menu at the top right. One line per item: Name = file.
 menu:

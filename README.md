@@ -1,4 +1,4 @@
-# AI4Math Stockholm — website
+# AI4M Stockholm — website
 
 A small static site: three pages, one stylesheet, no build step, no dependencies, no
 framework. All of the text lives in plain files in `content/`, so the site can be
@@ -73,7 +73,7 @@ files are fetched with `cache: "no-cache"` and always revalidated.
 
 ## Before going live
 
-- `ai4math@example.se` in `content/settings.txt` — the contact and mailing-list address,
+- `ai4m@example.se` in `content/settings.txt` — the contact and mailing-list address,
   which propagates to every page
 - the seeded events in `content/calendar.txt` — replace with the real autumn programme
 - room numbers and the workshop venue

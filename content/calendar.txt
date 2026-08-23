@@ -11,7 +11,7 @@
 #
 #      title:     Talk title
 #      speaker:   Name, Affiliation
-#      series:    AI4Math Seminar          (small tag next to the title)
+#      series:    AI4M Seminar             (small tag next to the title)
 #      date:      2026-09-24               (year-month-day)
 #      time:      15:15-16:15              (or just 15:15, or leave out)
 #      location:  KTH, Lindstedtsvägen 25, room 3721
@@ -26,7 +26,7 @@
 
 title: Organisational meeting and introductions
 speaker: All welcome
-series: AI4Math Stockholm
+series: AI4M Stockholm
 date: 2026-09-10
 time: 15:15-17:00
 location: Stockholm University, Kräftriket, house 6, room 306
@@ -36,7 +36,7 @@ abstract: An informal first meeting to introduce the group, agree on the format 
 
 title: Formalisation with Lean: a working introduction
 speaker: Speaker to be announced
-series: AI4Math Seminar
+series: AI4M Seminar
 date: 2026-09-24
 time: 15:15-16:15
 location: KTH, Lindstedtsvägen 25, room 3721

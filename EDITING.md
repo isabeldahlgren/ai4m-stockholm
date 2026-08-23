@@ -38,7 +38,7 @@ the words. Blocks are separated by a line of three dashes.
 
 title: Formalisation with Lean: a working introduction
 speaker: Jane Doe, KTH
-series: AI4Math Seminar
+series: AI4M Seminar
 date: 2026-09-24
 time: 15:15-16:15
 location: KTH, Lindstedtsvägen 25, room 3721
@@ -125,9 +125,9 @@ Anything between `<!--` and `-->` is a note to yourself and never appears on the
 Open `content/settings.txt`. It is a list of labelled lines:
 
 ```
-site name: AI4Math Stockholm
+site name: AI4M Stockholm
 hosts: KTH Royal Institute of Technology · Stockholm University
-email: ai4math@example.se
+email: ai4m@example.se
 
 menu:
   About = index.html

@@ -125,7 +125,7 @@
       : ["Reload the page while holding the Shift key. A browser sometimes keeps an old copy of a file, and that is the commonest cause.",
          "If that does not help, check that the content folder sits next to this page and contains settings.txt and the page's own text file.",
          "The exact problem was: " + message];
-    document.title = "AI4Math Stockholm";
+    document.title = "AI4M Stockholm";
     main.innerHTML = '<div class="hero prose"><h1>The page could not be loaded</h1>' +
       notice("What to do", hint) + "</div>";
   }

@@ -12,71 +12,65 @@ A short, deliberately selective list for mathematicians who want to find their w
 
 > Suggestions are very welcome — send anything you think belongs here to {email}.
 
-## Orientation :: Where to begin
+## Evaluation :: Benchmarks
 
-- [Jeremy Avigad, *Mathematics and the formal turn*](https://arxiv.org/abs/2311.00007)
-  An essay on what formalisation is doing to mathematical practice. A good first orientation to the questions, written for mathematicians rather than logicians.
-- [Terence Tao, *What's new*](https://terrytao.wordpress.com/)
-  Tao writes regularly about his own experiments with proof assistants and language models; the posts are the most useful running commentary available from a working mathematician.
-- [Kevin Buzzard, *The Xena Project*](https://xenaproject.wordpress.com/)
-  A long-running blog on formalising modern mathematics in Lean, including the case for why a mathematician should care.
+- [FrontierMath](https://epoch.ai/frontiermath)
+  Unpublished research-level problems written by working mathematicians and kept private, so that a model cannot have seen them. Maintained by Epoch AI.
+- [IMProofBench](https://improofbench.math.ethz.ch/)
+  A private collection of PhD-level problems, graded by expert review rather than by answer matching, and run from the mathematics department at ETH Zürich.
+- [First Proof](https://1stproof.org/index.html)
+  An independent project, overseen by an editorial board of mathematicians, running benchmarking studies and community experiments on what AI can currently do in research mathematics.
 
-## Formalisation :: Lean and proof assistants
+## Formalisation :: Lean
 
 ### Starting out
 
-- [The Natural Number Game](https://adam.math.hhu.de/)
+- [The Natural Number Game](https://adam.math.hhu.de/#/g/leanprover-community/NNG4)
   Builds the elementary theory of the natural numbers in Lean, in the browser, with no installation. An hour here is the cheapest possible introduction to what a proof assistant feels like.
-- [Lean 4 Web](https://live.lean-lang.org/)
-  A browser editor with Mathlib available, useful for trying something out before installing anything.
-- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/)
-  The standard textbook for mathematicians learning Lean, organised by mathematical subject and worked through as exercises.
+- [Bhavik Mehta, *Formalising Mathematics*](https://b-mehta.github.io/formalising-mathematics-notes/)
+  Notes and exercises from a taught course, written for mathematicians who already know the mathematics and want to learn how to say it in Lean.
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/C01_Introduction.html)
+  The standard textbook, organised by mathematical subject and worked through as exercises. The natural next step once the game is finished.
 
 ### Going further
 
-- [Lean community](https://leanprover-community.github.io/)
-  Installation instructions, documentation, and the entry point to everything else in the ecosystem.
-- [Theorem Proving in Lean 4](https://lean-lang.org/theorem_proving_in_lean4/)
-  The reference introduction to the language and its dependent type theory.
-- [Kevin Buzzard, *Formalising Mathematics*](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024)
-  A full lecture course with problem sheets, taught to mathematics students at Imperial College London.
-- [Mathlib documentation](https://leanprover-community.github.io/mathlib4_docs/)
-  The searchable API of Mathlib, the unified library of formalised mathematics. See also [Loogle](https://loogle.lean-lang.org/) for searching it by the shape of a statement.
-- [Lean Zulip](https://leanprover.zulipchat.com/)
-  Where the community actually works. Newcomers' questions are answered quickly and patiently in the "new members" stream.
+- [Learning Lean: tools and resources](https://lean-lang.org/learn/#resources)
+  The official index of editors, documentation, search tools and community forums. Start here when you need something the textbooks do not cover.
+- [LeanEval](https://lean-lang.org/eval/)
+  A public leaderboard for AI formalisation and proof: standings, problem histories and the solutions themselves, which are often more informative than the scores.
+- [Tau Ceti](https://github.com/TauCetiProject/TauCeti)
+  A Lean library downstream of Mathlib in which AI writes the formalisations and humans write the roadmaps and the review rubrics. An experiment in building trust in machine-written mathematics.
+- [Palomar](https://palomar-registry.org/)
+  A registry of Lean-verified results, intended as the analogue of a preprint server for formal proofs: each entry is mechanically checked and recorded by mathematical statement rather than by repository.
 
-## Reading :: Machine learning in mathematics
+## Reading :: Essays
 
-- [Davies et al., *Advancing mathematics by guiding human intuition with AI*](https://www.nature.com/articles/s41586-021-04086-6)
-  Nature, 2021. Machine learning used to suggest conjectures in knot theory and representation theory, which were then proved by hand. An early and still instructive template for the collaboration.
-- [Romera-Paredes et al., *Mathematical discoveries from program search with large language models*](https://www.nature.com/articles/s41586-023-06924-6)
-  Nature, 2023. The FunSearch method: a language model proposes programs, an evaluator keeps what verifies. Produced new constructions for the cap set problem.
-- [Trinh et al., *Solving olympiad geometry without human demonstrations*](https://www.nature.com/articles/s41586-023-06747-5)
-  Nature, 2024. AlphaGeometry, a neuro-symbolic system reaching near gold-medal performance on olympiad geometry.
-- [AlphaProof and AlphaGeometry 2](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/)
-  DeepMind's account of solving International Mathematical Olympiad problems with formal search in Lean.
-- [LeanDojo](https://leandojo.org/)
-  Open tooling and datasets for machine learning with Lean, and a reasonable place to start if you want to run experiments yourself.
+- [David Bessis, *The fall of the theorem economy*](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy)
+  Argues that mathematics is about understanding rather than theorems, and that the profession will be badly served if it lets theorem-proving remain the measure of its worth.
+- [Daniel Litt, *Mathematics in the library of Babel*](https://www.daniellitt.com/blog/2026/2/20/mathematics-in-the-library-of-babel/)
+  A careful account of what current models can and cannot do, and of why the author now expects autonomous research mathematics considerably sooner than he once did.
+- [Rado Kirov, *Three cultures of math*](https://rkirov.github.io/posts/three-cultures-of-math/)
+  Distinguishes competitive, useful and aesthetic mathematics, and asks which of the three has most to lose.
 
-## Evaluation :: Benchmarks
+## Blogs :: A blogroll
 
-- [miniF2F](https://github.com/openai/miniF2F)
-  Olympiad-level problems stated formally, the long-standing benchmark for automated theorem proving.
-- [PutnamBench](https://github.com/trishullab/PutnamBench)
-  Putnam competition problems formalised in Lean, Isabelle and Coq.
-- [FrontierMath](https://epoch.ai/frontiermath)
-  Unpublished research-level problems written by working mathematicians, designed to resist memorisation.
+- [Terence Tao, *What's new*](https://terrytao.wordpress.com)
+  The most useful running commentary available from a working mathematician, including his own experiments with proof assistants and language models.
+- [Timothy Gowers, *Gowers's Weblog*](https://gowers.wordpress.com)
+  Long-running writing on how mathematics is actually done, and on what it would take for a machine to do it.
+- [Daniel Litt](https://www.daniellitt.com/blog/)
+  Regular, sceptical, well-documented testing of what models can do on real mathematics.
+- [The Xena Project](https://xenaproject.wordpress.com/)
+  Kevin Buzzard on formalising modern mathematics in Lean, including the case for why a mathematician should care.
 
-## Elsewhere :: Community and funding
+## Elsewhere :: Opportunities
 
-- [AI for Math Fund](https://renaissancephilanthropy.org/ai-for-math-fund/)
-  Grants for work on formalisation, datasets and tools at the intersection of the two fields.
-- [AI Mathematical Olympiad Prize](https://aimoprize.com/)
-  An open competition to build models that solve olympiad problems, with public leaderboards and released solutions.
-- [IPAM, *Machine Assisted Proofs*](https://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/)
-  Recorded lectures from the 2023 workshop, still one of the better overviews of the research landscape.
+- [AI for Math Fund](https://www.renaissancephilanthropy.org/ai-for-math-fund/)
+  Grants from Renaissance Philanthropy for work on formalisation, datasets, tools and open problems.
+- [AI for Math Workshop](https://ai4math2026.github.io)
+  The workshop series held at ICML; the 2026 edition, in Seoul, ran paper and challenge tracks whose calls are a good guide to what the field is currently asking.
 
-## Local :: In Stockholm
+## Further :: Beyond this list
 
-- [Department of Mathematics, KTH](https://www.kth.se/math)
-- [Department of Mathematics, Stockholm University](https://www.math.su.se/)
+- [Thomas Bloom, *AI links*](http://www.thomasbloom.org/AIlinks.html)
+  A much fuller running collection of links on AI and mathematics. Anyone who wants more than the list above should go there next.

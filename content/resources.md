@@ -12,7 +12,7 @@ A short, deliberately selective list for mathematicians who want to find their w
 
 > Suggestions are very welcome — send anything you think belongs here to {email}.
 
-## Evaluation :: Benchmarks
+## Benchmarks
 
 - [FrontierMath](https://epoch.ai/frontiermath)
   Unpublished research-level problems written by working mathematicians and kept private, so that a model cannot have seen them. Maintained by Epoch AI.
@@ -21,7 +21,7 @@ A short, deliberately selective list for mathematicians who want to find their w
 - [First Proof](https://1stproof.org/index.html)
   An independent project, overseen by an editorial board of mathematicians, running benchmarking studies and community experiments on what AI can currently do in research mathematics.
 
-## Formalisation :: Lean
+## Lean
 
 ### Starting out
 
@@ -43,7 +43,7 @@ A short, deliberately selective list for mathematicians who want to find their w
 - [Palomar](https://palomar-registry.org/)
   A registry of Lean-verified results, intended as the analogue of a preprint server for formal proofs: each entry is mechanically checked and recorded by mathematical statement rather than by repository.
 
-## Reading :: Essays
+## Essays
 
 - [David Bessis, *The fall of the theorem economy*](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy)
   Argues that mathematics is about understanding rather than theorems, and that the profession will be badly served if it lets theorem-proving remain the measure of its worth.
@@ -52,7 +52,7 @@ A short, deliberately selective list for mathematicians who want to find their w
 - [Rado Kirov, *Three cultures of math*](https://rkirov.github.io/posts/three-cultures-of-math/)
   Distinguishes competitive, useful and aesthetic mathematics, and asks which of the three has most to lose.
 
-## Blogs :: A blogroll
+## A blogroll
 
 - [Terence Tao, *What's new*](https://terrytao.wordpress.com)
   The most useful running commentary available from a working mathematician, including his own experiments with proof assistants and language models.
@@ -63,14 +63,16 @@ A short, deliberately selective list for mathematicians who want to find their w
 - [The Xena Project](https://xenaproject.wordpress.com/)
   Kevin Buzzard on formalising modern mathematics in Lean, including the case for why a mathematician should care.
 
-## Elsewhere :: Opportunities
+## Opportunities
 
 - [AI for Math Fund](https://www.renaissancephilanthropy.org/ai-for-math-fund/)
   Grants from Renaissance Philanthropy for work on formalisation, datasets, tools and open problems.
 - [AI for Math Workshop](https://ai4math2026.github.io)
   The workshop series held at ICML; the 2026 edition, in Seoul, ran paper and challenge tracks whose calls are a good guide to what the field is currently asking.
+- [Caltech Mathathon](https://mathathonchallenge.com)
+  Forty hours in which invited teams are given frontier models and compute and set loose on open conjectures. Applications are made through the site.
 
-## Further :: Beyond this list
+## Beyond this list
 
 - [Thomas Bloom, *AI links*](http://www.thomasbloom.org/AIlinks.html)
   A much fuller running collection of links on AI and mathematics. Anyone who wants more than the list above should go there next.

@@ -82,11 +82,12 @@ titles of books and papers.
 To start a new group of resources, copy one of the `##` lines:
 
 ```
-## Elsewhere :: Community and funding
+## Community and funding
 ```
 
-The words before `::` become the small grey label; the words after it become the
-heading. Both are optional — `## Community and funding` on its own works too.
+If you write `## Elsewhere :: Community and funding`, the words before the `::` come
+out as a small grey label above the heading. The resources page does not use these; the
+front page and the events page do.
 
 ---
 

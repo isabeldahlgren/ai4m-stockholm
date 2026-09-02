@@ -24,29 +24,29 @@
 #  Never delete an old event — it moves to "Past events" on its own.
 # ---------------------------------------------------------------
 
-title: Organisational meeting and introductions
-speaker: All welcome
-series: AI4M Stockholm
-date: 2026-09-10
-time: 15:15-17:00
-location: Stockholm University, Kräftriket, house 6, room 306
-abstract: An informal first meeting to introduce the group, agree on the format of the seminar series, and collect topics that participants would like to see covered during the autumn.
-
----
-
-title: Formalisation with Lean: a working introduction
-speaker: Speaker to be announced
+title: Using AI agents effectively
+speaker: Per Alexandersson
 series: AI4M Seminar
-date: 2026-09-24
-time: 15:15-16:15
-location: KTH, Lindstedtsvägen 25, room 3721
-abstract: A hands-on introduction to interactive theorem proving in Lean 4 and the Mathlib library, aimed at mathematicians with no prior experience of proof assistants.
+date: 2026-09-09
+time: 15:15-17:15
+location: KTH, Lindstedtsvägen 25, room D2
+abstract: TBA
 
 ---
 
-title: Autumn workshop: machine-assisted mathematics
+title: Formalisation with Lean: an invitation
+speaker: Isabel Dahlgren, Hampus Nyberg, Yaël Dillies
+series: AI4M Seminar
+date: 2026-09-15
+time: 15:15-16:15
+location: KTH, Lindstedtsvägen 25, room D2
+abstract: A brief introduction to interactive theorem proving in Lean 4 and the Mathlib library, aimed at mathematicians with no prior experience of proof assistants.
+
+---
+
+title: Lean for the Working Mathematician
 series: Workshop
-date: 2026-11-19 to 2026-11-20
-time: 09:00-17:00
+date: TBA (October)
+time: 
 location: Stockholm — venue to be confirmed
-abstract: A two-day workshop bringing together mathematicians and machine learning researchers from KTH and Stockholm University. Programme and registration details will be posted here in October.
+abstract: TBA

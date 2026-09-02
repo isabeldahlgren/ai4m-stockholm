@@ -8,7 +8,7 @@
 
 # Resources
 
-A short, deliberately selective list for mathematicians who want to find their way into the subject. It is a starting point rather than a survey.
+A short list for mathematicians who want to find their way into the subject. It is a starting point rather than a survey.
 
 > Suggestions are very welcome — send anything you think belongs here to {email}.
 

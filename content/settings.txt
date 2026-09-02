@@ -15,7 +15,7 @@ hosts: KTH Royal Institute of Technology · Stockholm University
 
 # The contact address. Write {email} anywhere in a content file and
 # it becomes a working link to whatever is set here.
-email: ai4m@example.se
+email: isabelda@kth.se
 
 # The menu at the top right. One line per item: Name = file.
 menu:

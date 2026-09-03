@@ -9,8 +9,6 @@
 
 Seminars, informal talks and workshops. Unless stated otherwise, meetings alternate between KTH and Stockholm University and are open to all.
 
-> Announcements are sent to the mailing list roughly a week in advance. To subscribe, write to {email}.
-
 ## Calendar :: Upcoming
 
 {{upcoming events}}

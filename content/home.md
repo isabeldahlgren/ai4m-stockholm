@@ -21,7 +21,7 @@ This group exists so that people in Stockholm interested in these questions can 
 
 We also maintain a [page of resources](resources.html) — introductions, surveys, courses, and software — for anyone who wants to find their way into the subject.
 
-> Everyone is welcome, from any department and at any level, and no background in machine learning or formalisation is assumed. To be added to the mailing list, write to {email}.
+> Everyone is welcome, from any department and at any level, and no background in machine learning or formalisation is assumed. 
 
 ## Calendar :: Upcoming
 

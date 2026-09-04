@@ -11,8 +11,6 @@
 
 # AI for mathematics, in Stockholm
 
-A group of researchers at KTH Royal Institute of Technology and Stockholm University, meeting to follow what machine learning and formal methods are beginning to mean for mathematical practice.
-
 ## About :: What this is
 
 Language models, proof assistants, and machine learning are changing how mathematics gets done. What that amounts to is not yet settled.

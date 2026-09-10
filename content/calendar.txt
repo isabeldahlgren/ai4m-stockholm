@@ -30,7 +30,7 @@ series: AI4M Seminar
 date: 2026-09-09
 time: 15:15-17:15
 location: KTH, Lindstedtsvägen 25, room D2
-abstract: I gave a small presentation on my AI workflow in February 2026. Since then, new models and features have been released and a lot has changed. I will give an overview of how I currently use AI to find and verify proofs in an efficient manner. After the seminar we invite everyone to fika in the lunch room of the KTH math department, to continue with informal discussions. Slides are available [here](https://alexandersson.symmetricfunctions.com/talks/AI-in-Mathematical-Research-Talk/#/title).
+abstract: I gave a small presentation on my AI workflow in February 2026. Since then, new models and features have been released and a lot has changed. I will give an overview of how I currently use AI to find and verify proofs in an efficient manner. After the seminar we invite everyone to fika in the lunch room of the KTH math department, to continue with informal discussions. Slides are available at https://alexandersson.symmetricfunctions.com/talks/AI-in-Mathematical-Research-Talk/#/title.
 
 ---
 

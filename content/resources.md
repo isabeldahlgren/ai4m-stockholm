@@ -72,3 +72,5 @@ A short list for mathematicians who want to find their way into the subject. It 
 
 - [Thomas Bloom, *AI links*](http://www.thomasbloom.org/AIlinks.html)
   A much fuller running collection of links on AI and mathematics. Anyone who wants more than the list above should go there next.
+- [Per Alexandersson, slides](https://alexandersson.symmetricfunctions.com/talks/AI-in-Mathematical-Research-Talk/#/title)
+  Slides for the talk *Research with AI – what has changed in 6 months?* given at KTH/SU on September 9, 2026.

@@ -9,17 +9,21 @@
    {{next events}} is replaced by the next three events from the calendar.
 -->
 
-# AI for mathematics, in Stockholm
+# Stockholm AI for Math Forum
 
-## About :: What this is
+## About :: Our purpose
 
-Language models, proof assistants, and machine learning are changing how mathematics gets done. What that amounts to is not yet settled.
+AI is changing mathematics. This group exists to ensure KTH and SU stay at the forefront.
 
-This group exists so that people in Stockholm interested in these questions can meet, share what they have read, and learn the relevant tools together. We run a seminar series, host occasional talks by visitors, and are organising a workshop later in the autumn.
+We meet to discuss developments in AI-assisted mathematics, share what we have read, and learn to use language models, proof assistants, and other tools. We run a seminar series and host talks by visitors, creating opportunities to learn from one another and try things out together.
 
-We also maintain a [page of resources](resources.html) — introductions, surveys, courses, and software — for anyone who wants to find their way into the subject.
+Our [resources page](resources.html) collects introductions, surveys, courses, and software for anyone who wants to explore the subject.
 
-> Everyone is welcome, from any department and at any level, and no background in machine learning or formalisation is assumed. 
+## Join :: Get involved
+
+Everyone is welcome, from any department and at any level. No background in machine learning or formalisation is needed.
+
+If you would like to join the organizing group, please email {email}.
 
 ## Calendar :: Upcoming
 

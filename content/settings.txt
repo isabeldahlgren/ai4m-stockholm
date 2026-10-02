@@ -8,7 +8,7 @@
 #  Lines starting with # are notes to yourself. They are ignored.
 # ---------------------------------------------------------------
 
-site name: AI4M Stockholm
+site name: Stockholm AI for Math Forum
 
 # The small grey line under the name.
 hosts: KTH Royal Institute of Technology · Stockholm University

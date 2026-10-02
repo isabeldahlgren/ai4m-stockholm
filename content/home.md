@@ -9,6 +9,8 @@
    {{next events}} is replaced by the next three events from the calendar.
 -->
 
+# Stockholm AI for Math Forum
+
 ## About :: Our purpose
 
 AI is changing mathematics. This group exists to ensure KTH and SU stay at the forefront as the field evolves.

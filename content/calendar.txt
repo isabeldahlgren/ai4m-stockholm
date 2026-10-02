@@ -26,7 +26,7 @@
 
 title: Research with AI – what has changed in 6 months?
 speaker: Per Alexandersson
-series: AI4M Seminar
+series: Seminar
 date: 2026-09-09
 time: 15:15-17:15
 location: KTH, Lindstedtsvägen 25, room D2
@@ -34,19 +34,11 @@ abstract: I gave a small presentation on my AI workflow in February 2026. Since 
 
 ---
 
-title: Formalisation with Lean: an invitation
+title: Lean for the Working Mathematician
 speaker: Isabel Dahlgren, Hampus Nyberg, Yaël Dillies
-series: AI4M Seminar
-date: 2026-09-15
+series: Seminar
+date: 2026-09-28
 time: 15:15-16:15
 location: KTH, Lindstedtsvägen 25, room D2
-abstract: A brief introduction to interactive theorem proving in Lean 4 and the Mathlib library, aimed at mathematicians with no prior experience of proof assistants.
+abstract: Two years ago, formalising elementary statements in Lean used to be rather tedious. Today, we can formalise much research-level mathematics with a basic AI subscription. This creates new use cases of Lean, making it a practical tool for the working mathematician. I will begin with an introduction to Lean, Mathlib and related tools (Palomar, TauCeti, Verso), and then discuss possible ways to use Lean for research. No prior Lean experience will be assumed. Welcome!
 
----
-
-title: Lean for the Working Mathematician
-series: Workshop
-date: 2026-10-15
-time: 13:15-16:15
-location: Stockholm — venue to be confirmed
-abstract: TBA

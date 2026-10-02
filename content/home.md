@@ -13,7 +13,7 @@
 
 ## About :: Our purpose
 
-AI is changing mathematics. This group exists to ensure KTH and SU stay at the forefront.
+AI is changing mathematics. This group exists to ensure KTH and SU stay at the forefront as the field evolves.
 
 We meet to discuss developments in AI-assisted mathematics, share what we have read, and learn to use language models, proof assistants, and other tools. We run a seminar series and host talks by visitors, creating opportunities to learn from one another and try things out together.
 

@@ -32,6 +32,8 @@ time: 15:15-17:15
 location: KTH, Lindstedtsvägen 25, room D2
 abstract: A presentation of open weight models, open source orchestrators, and how to use them to do mathematics. I'll give some recommendation as to what subscription to take, which orchestrator and which models to use for mathematics. We'll talk about privacy concerns, how to keep up with the latest LLMs, possible censorship. I'll also touch upon dependent types and theorem proving with LLMs.
 
+---
+
 title: Research with AI – what has changed in 6 months?
 speaker: Per Alexandersson
 series: Seminar

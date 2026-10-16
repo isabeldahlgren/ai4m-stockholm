@@ -19,7 +19,7 @@ Our [resources page](resources.html) collects introductions, surveys, courses, a
 
 ## Join :: Get involved
 
-Everyone is welcome, from any department and at any level. No background in machine learning or formalisation is needed.
+Everyone is welcome to our events and our [Discord server](https://discord.gg/DJsYuRZkT), from any department and at any level. No background in machine learning or formalisation is needed.
 
 If you would like to join the organizing group, please email {email}.
 

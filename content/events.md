@@ -7,7 +7,7 @@
 
 # Events
 
-Seminars, informal talks and workshops. Unless stated otherwise, meetings alternate between KTH and Stockholm University and are open to all.
+Seminars, informal talks and workshops. Unless stated otherwise, meetings are open to all.
 
 ## Calendar :: Upcoming
 

@@ -14,7 +14,6 @@
 #      series:    AI4M Seminar             (small tag next to the title)
 #      date:      2026-09-24               (year-month-day)
 #      time:      15:15-16:15              (or just 15:15, or leave out)
-#      location:  KTH, Lindstedtsvägen 25, room 3721
 #      abstract:  One or two sentences. May run over several lines.
 #      link:      Register https://...     (repeat for more links)
 #
@@ -29,7 +28,6 @@ speaker: Olivier Verdier
 series: Seminar
 date: 2026-10-20
 time: 15:15-17:15
-location: KTH, Lindstedtsvägen 25, room D2
 abstract: A presentation of open weight models, open source orchestrators, and how to use them to do mathematics. I'll give some recommendation as to what subscription to take, which orchestrator and which models to use for mathematics. We'll talk about privacy concerns, how to keep up with the latest LLMs, possible censorship. I'll also touch upon dependent types and theorem proving with LLMs.
 
 ---
@@ -39,7 +37,6 @@ speaker: Per Alexandersson
 series: Seminar
 date: 2026-09-09
 time: 15:15-17:15
-location: KTH, Lindstedtsvägen 25, room D2
 abstract: I gave a small presentation on my AI workflow in February 2026. Since then, new models and features have been released and a lot has changed. I will give an overview of how I currently use AI to find and verify proofs in an efficient manner. After the seminar we invite everyone to fika in the lunch room of the KTH math department, to continue with informal discussions.
 
 ---
@@ -49,7 +46,6 @@ speaker: Isabel Dahlgren, Hampus Nyberg, Yaël Dillies
 series: Seminar
 date: 2026-09-28
 time: 15:15-16:15
-location: KTH, Lindstedtsvägen 25, room D2
 abstract: Two years ago, formalising elementary statements in Lean used to be rather tedious. Today, we can formalise much research-level mathematics with a basic AI subscription. This creates new use cases of Lean, making it a practical tool for the working mathematician. I will begin with an introduction to Lean, Mathlib and related tools (Palomar, TauCeti, Verso), and then discuss possible ways to use Lean for research. No prior Lean experience will be assumed. Welcome!
 
 ---
@@ -59,5 +55,4 @@ speaker:
 series: Workshop
 date: 2026-10-14
 time: 09:00-16:00
-location:
 abstract: Joint workshop organized by KTH and SU on how to use AI agents in mathematics education and research. The purpose of the workshop is for the participants to become more familiar with the type of AI tools, primarily agents, that can be of use in their work. Most of the day will be devoted to on hands work using these tools, together with short presentations and a joint lunch.

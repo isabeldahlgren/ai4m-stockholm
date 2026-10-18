@@ -42,7 +42,6 @@ speaker: Jane Doe, KTH
 series: AI4M Seminar
 date: 2026-09-24
 time: 15:15-16:15
-location: KTH, Lindstedtsvägen 25, room 3721
 abstract: A hands-on introduction to interactive theorem proving in Lean 4.
 link: Register https://example.com/register
 ```

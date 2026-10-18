@@ -129,7 +129,6 @@ main { padding: 3.5rem 0 4.5rem; }
 .event__time { display: block; }
 .event__title { font-size: 1.1875rem; font-weight: 600; margin: 0 0 0.35rem; }
 .event__speaker { display: block; margin-bottom: 0.5rem; color: var(--ink-soft); }
-.event__meta { font-family: var(--sans); font-size: 0.8125rem; color: var(--muted); margin-bottom: 0.6rem; }
 .event__abstract { font-size: 1rem; color: var(--ink-soft); margin-bottom: 0.5rem; }
 .event__links { font-family: var(--sans); font-size: 0.8125rem; }
 .event__links a + a { margin-left: 1rem; }

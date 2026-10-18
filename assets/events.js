@@ -22,10 +22,6 @@
     "dates": "date",
     "time": "time",
     "times": "time",
-    "location": "location",
-    "place": "location",
-    "room": "location",
-    "venue": "location",
     "abstract": "abstract",
     "description": "abstract",
     "summary": "abstract",
@@ -84,7 +80,6 @@
       title: fields.title,
       speaker: fields.speaker || "",
       series: fields.series || "",
-      location: fields.location || "",
       abstract: fields.abstract || "",
       start: start,
       end: end,
@@ -199,7 +194,6 @@
     body.appendChild(heading);
 
     if (ev.speaker) body.appendChild(el("span", "event__speaker", ev.speaker));
-    if (ev.location) body.appendChild(el("div", "event__meta", ev.location));
     if (ev.abstract) body.appendChild(el("p", "event__abstract", ev.abstract));
 
     if (ev.links && ev.links.length) {

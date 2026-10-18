@@ -52,3 +52,12 @@ time: 15:15-16:15
 location: KTH, Lindstedtsvägen 25, room D2
 abstract: Two years ago, formalising elementary statements in Lean used to be rather tedious. Today, we can formalise much research-level mathematics with a basic AI subscription. This creates new use cases of Lean, making it a practical tool for the working mathematician. I will begin with an introduction to Lean, Mathlib and related tools (Palomar, TauCeti, Verso), and then discuss possible ways to use Lean for research. No prior Lean experience will be assumed. Welcome!
 
+---
+
+title: Workshop on AI agents
+speaker:
+series: Workshop
+date: 2026-10-14
+time: 09:00-16:00
+location:
+abstract: Joint workshop organized by KTH and SU on how to use AI agents in mathematics education and research. The purpose of the workshop is for the participants to become more familiar with the type of AI tools, primarily agents, that can be of use in their work. Most of the day will be devoted to on hands work using these tools, together with short presentations and a joint lunch.

@@ -34,8 +34,6 @@ A short list for mathematicians who want to find their way into the subject. It 
 
 - [Learning Lean: tools and resources](https://lean-lang.org/learn/)
   The official index of editors, documentation, search tools and community forums.
-- [LeanEval](https://lean-lang.org/eval/)
-  A public leaderboard for AI formalisation tools.
 - [Tau Ceti](https://github.com/TauCetiProject/TauCeti)
   A Lean library downstream of Mathlib in which AI writes the formalisations and humans write the roadmaps and the review rubrics. An experiment in building trust in machine-written mathematics.
 - [Palomar](https://palomar-registry.org/)
@@ -52,6 +50,8 @@ A short list for mathematicians who want to find their way into the subject. It 
 
 ## A blogroll
 
+- [Proofs and Prompts](https://proofsandprompts.com)
+  A communal blog where mathematicians discuss how AI is changing their work, with contributions from sceptics and enthusiasts alike.
 - [Terence Tao, *What's new*](https://terrytao.wordpress.com)
   A useful running commentary available from a working mathematician, including his own experiments with proof assistants and language models.
 - [Timothy Gowers, *Gowers's Weblog*](https://gowers.wordpress.com)
@@ -61,16 +61,11 @@ A short list for mathematicians who want to find their way into the subject. It 
 - [The Xena Project](https://xenaproject.wordpress.com/)
   Kevin Buzzard on formalising modern mathematics in Lean, including the case for why a mathematician should care.
 
-## Opportunities
-
-- [AI for Math Fund](https://www.renaissancephilanthropy.org/ai-for-math-fund/)
-  Grants from Renaissance Philanthropy for work on formalisation, datasets, tools and open problems.
-- [Caltech Mathathon](https://mathathonchallenge.com)
-  Forty hours in which invited teams are given frontier models and compute and set loose on open conjectures. Applications are made through the site; deadline on September 12.
-
 ## Beyond this list
 
 - [Thomas Bloom, *AI links*](http://www.thomasbloom.org/AIlinks.html)
   A much fuller running collection of links on AI and mathematics. Anyone who wants more than the list above should go there next.
+- [Association for Human Mathematics](https://www.ahmath.org)
+  An association that opposes the growing role of AI in mathematics and organises working groups on its effects on education, publishing and the mathematical community.
 - [Per Alexandersson, slides](https://alexandersson.symmetricfunctions.com/talks/AI-in-Mathematical-Research-Talk/#/title)
   Slides for the talk *Research with AI – what has changed in 6 months?* given at KTH/SU on September 9, 2026.

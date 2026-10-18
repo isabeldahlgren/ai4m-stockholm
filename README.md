@@ -9,8 +9,8 @@ colleagues who do not work with code, and it is the only file they need. The res
 this page is for whoever looks after the site itself.
 
 ```
-content/settings.txt    Site name, menu, contact address, footer
-content/home.md         Front page
+content/settings.txt    Site name, menu, footer (including contact links)
+content/home.md         Front page (including contact names and email addresses)
 content/events.md       Events page (wording around the listings)
 content/resources.md    Resources page
 content/calendar.txt    The events themselves
@@ -51,8 +51,8 @@ script. Nothing in `content/` needs this.
 
 ## Before going live
 
-- `ai4m@example.se` in `content/settings.txt` — the contact and mailing-list address,
-  which propagates to every page
+- contact details in `content/home.md` and the footer links in `content/settings.txt`
+  — these are written directly in both files; there is no shared email setting
 - the seeded events in `content/calendar.txt` — replace with the real autumn programme
 - room numbers and the workshop venue
 

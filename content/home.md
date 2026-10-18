@@ -21,7 +21,12 @@ Our [resources page](resources.html) collects introductions, surveys, courses, a
 
 Everyone is welcome to our events and our [Discord server](https://discord.gg/DJsYuRZkT), from any department and at any level. No background in machine learning or formalisation is needed.
 
-If you would like to join the organizing group, please email {email}.
+Our main points of contact are:
+
+- Svante Linusson ([linusson@kth.se](mailto:linusson@kth.se))
+- Samuel Lundqvist ([samuel@math.su.se](mailto:samuel@math.su.se))
+
+If you would like to join the organizing group, please email either of them.
 
 ## Calendar :: Upcoming
 

@@ -1,6 +1,6 @@
 # How to edit this website
 
-Everything you might want to change lives in the **content** folder, in four plain
+Everything you might want to change lives in the **content** folder, in five plain
 text files. You never need to touch HTML.
 
 | I want to change… | Open this file |
@@ -9,7 +9,8 @@ text files. You never need to touch HTML.
 | the wording on the events page | `content/events.md` |
 | the resources page | `content/resources.md` |
 | the events themselves | `content/calendar.txt` |
-| the site name, menu, e-mail address, footer | `content/settings.txt` |
+| the contact names and email addresses | `content/home.md` and `content/settings.txt` |
+| the site name, menu, footer | `content/settings.txt` |
 
 Open a file in any text editor (TextEdit, Notes, VS Code, or the pencil icon on
 GitHub), change the words, save. That is the whole procedure.
@@ -105,7 +106,7 @@ The three `.md` files are ordinary prose with a few marks:
 | `*emphasis*` | *emphasis* |
 | `**important**` | **important** |
 | `[the resources page](resources.html)` | a link |
-| `{email}` | the contact address, as a working link |
+| `[samuel@math.su.se](mailto:samuel@math.su.se)` | a clickable email address |
 
 The first paragraph under the title is automatically set in the larger introductory
 size, and is also what search engines show under the page's name.
@@ -121,23 +122,29 @@ Anything between `<!--` and `-->` is a note to yourself and never appears on the
 
 ---
 
-## Changing the name, the menu, the address, the footer
+## Changing the contacts
+
+The main contacts are Svante Linusson (linusson@kth.se) and Samuel Lundqvist
+(samuel@math.su.se). Their names and email links are written directly in two places:
+
+- `content/home.md`, under “Get involved”, shows both names and email addresses.
+- `content/settings.txt`, under `footer links:`, links each name to their email address.
+
+To change a contact, update both files. There is no shared email setting.
+
+## Changing the name, the menu, the footer
 
 Open `content/settings.txt`. It is a list of labelled lines:
 
 ```
 site name: AI4M Stockholm
 hosts: KTH Royal Institute of Technology · Stockholm University
-email: ai4m@example.se
 
 menu:
   About = index.html
   Events = events.html
   Resources = resources.html
 ```
-
-Changing `email:` changes it everywhere on the site at once, because the pages write
-`{email}` rather than the address itself.
 
 To reorder the menu, reorder those lines. To rename a page in the menu, change the
 words to the left of the `=`.

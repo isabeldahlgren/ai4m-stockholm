@@ -63,6 +63,8 @@ A short list for mathematicians who want to find their way into the subject. It 
 
 ## Beyond this list
 
+- [Hexagon](https://hexagonmath.org/)
+  A repository of research and expository work in mathematics and theoretical computer science, with information about how AI was used.
 - [Thomas Bloom, *AI links*](http://www.thomasbloom.org/AIlinks.html)
   A much fuller running collection of links on AI and mathematics. Anyone who wants more than the list above should go there next.
 - [Association for Human Mathematics](https://www.ahmath.org)
